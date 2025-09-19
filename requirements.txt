@@ -1,38 +1,14 @@
-# Core data science libraries
+# Core dependencies
+streamlit>=1.20.0
 pandas>=1.5.0
 numpy>=1.21.0
-scikit-learn>=1.1.0
-
-# Visualization
-matplotlib>=3.5.0
-seaborn>=0.11.0
-altair>=4.2.0
 plotly>=5.10.0
-folium>=0.12.0
 
-# Streamlit and web app
-streamlit>=1.20.0
-
-# Data formats
-pyarrow>=8.0.0  # For parquet support
-
-# CLI and utilities
-typer>=0.6.0
-click>=8.0.0
-
-# Testing
-pytest>=7.0.0
-pytest-cov>=3.0.0
-
-# Code quality
-ruff>=0.1.0
-black>=22.0.0
+# Optional: For advanced ML features
+scikit-learn>=1.1.0
+matplotlib>=3.5.0
 
 # Development tools
-pre-commit>=2.20.0
-jupyter>=1.0.0
-ipykernel>=6.0.0
-
-# Optional: Additional ML libraries
-xgboost>=1.6.0
-lightgbm>=3.3.0
+pytest>=7.0.0
+ruff>=0.1.0
+black>=22.0.0
